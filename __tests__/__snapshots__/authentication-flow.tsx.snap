@@ -1,0 +1,812 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Authentication flow should render the first step 1`] = `
+<View>
+  <View
+    style={
+      [
+        {
+          "marginBottom": 56,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 24,
+            "lineHeight": 32,
+          },
+          {
+            "fontFamily": "SpaceGrotesk-Bold",
+          },
+          {
+            "color": "#1A202C",
+          },
+          {
+            "marginBottom": 20,
+          },
+        ]
+      }
+    >
+      Configuration du serveur
+    </Text>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "column",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "color": "#181D28",
+            },
+            {
+              "marginBottom": 4,
+            },
+          ]
+        }
+      >
+        Veuillez entrer l’url du serveur
+      </Text>
+      <TextInput
+        cursorColor="#388EFF"
+        inputMode="url"
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="https://"
+        placeholderTextColor="#96989E"
+        style={
+          [
+            {
+              "borderBottomWidth": 1,
+              "borderLeftWidth": 1,
+              "borderRightWidth": 1,
+              "borderTopWidth": 1,
+            },
+            {
+              "height": 44,
+            },
+            {
+              "width": "100%",
+            },
+            {
+              "paddingBottom": 8,
+              "paddingTop": 8,
+            },
+            {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            {
+              "borderBottomLeftRadius": 12,
+              "borderBottomRightRadius": 12,
+              "borderTopLeftRadius": 12,
+              "borderTopRightRadius": 12,
+            },
+            {
+              "display": "flex",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "borderBottomColor": "#B8BABE",
+              "borderLeftColor": "#B8BABE",
+              "borderRightColor": "#B8BABE",
+              "borderTopColor": "#B8BABE",
+            },
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#1455E1",
+        "borderBottomLeftRadius": 12,
+        "borderBottomRightRadius": 12,
+        "borderTopLeftRadius": 12,
+        "borderTopRightRadius": 12,
+        "flexDirection": "row",
+        "height": 44,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      Se connecter au serveur
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Authentication flow should render the second step 1`] = `
+<View>
+  <View
+    style={
+      [
+        {
+          "marginBottom": 56,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 24,
+            "lineHeight": 32,
+          },
+          {
+            "fontFamily": "SpaceGrotesk-Bold",
+          },
+          {
+            "color": "#1A202C",
+          },
+          {
+            "marginBottom": 20,
+          },
+        ]
+      }
+    >
+      Se connecter
+    </Text>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "column",
+          },
+          {
+            "marginBottom": 12,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "color": "#181D28",
+            },
+            {
+              "marginBottom": 4,
+            },
+          ]
+        }
+      >
+        Votre numéro de téléphone
+      </Text>
+      <TextInput
+        cursorColor="#388EFF"
+        keyboardType="phone-pad"
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="+22912345678"
+        placeholderTextColor="#96989E"
+        style={
+          [
+            {
+              "borderBottomWidth": 1,
+              "borderLeftWidth": 1,
+              "borderRightWidth": 1,
+              "borderTopWidth": 1,
+            },
+            {
+              "height": 44,
+            },
+            {
+              "width": "100%",
+            },
+            {
+              "paddingBottom": 8,
+              "paddingTop": 8,
+            },
+            {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            {
+              "borderBottomLeftRadius": 12,
+              "borderBottomRightRadius": 12,
+              "borderTopLeftRadius": 12,
+              "borderTopRightRadius": 12,
+            },
+            {
+              "display": "flex",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "borderBottomColor": "#B8BABE",
+              "borderLeftColor": "#B8BABE",
+              "borderRightColor": "#B8BABE",
+              "borderTopColor": "#B8BABE",
+            },
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+        value=""
+      />
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "column",
+          },
+          {
+            "marginBottom": 12,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "color": "#181D28",
+            },
+            {
+              "marginBottom": 4,
+            },
+          ]
+        }
+      >
+        Votre code ojami
+      </Text>
+      <TextInput
+        cursorColor="#388EFF"
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="OJA-000X"
+        placeholderTextColor="#96989E"
+        style={
+          [
+            {
+              "borderBottomWidth": 1,
+              "borderLeftWidth": 1,
+              "borderRightWidth": 1,
+              "borderTopWidth": 1,
+            },
+            {
+              "height": 44,
+            },
+            {
+              "width": "100%",
+            },
+            {
+              "paddingBottom": 8,
+              "paddingTop": 8,
+            },
+            {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            {
+              "borderBottomLeftRadius": 12,
+              "borderBottomRightRadius": 12,
+              "borderTopLeftRadius": 12,
+              "borderTopRightRadius": 12,
+            },
+            {
+              "display": "flex",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "borderBottomColor": "#B8BABE",
+              "borderLeftColor": "#B8BABE",
+              "borderRightColor": "#B8BABE",
+              "borderTopColor": "#B8BABE",
+            },
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+        value=""
+      />
+    </View>
+    <Text
+      style={
+        [
+          {
+            "marginTop": 4,
+          },
+          {
+            "fontFamily": "SpaceGrotesk-Regular",
+          },
+          {
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+          {
+            "color": "#666A72",
+          },
+        ]
+      }
+    >
+      Vous pouvez retrouver votre code OJAMI dans votre boîte mail ou dans l’application Ojami installé sur votre PC.
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#1455E1",
+        "borderBottomLeftRadius": 12,
+        "borderBottomRightRadius": 12,
+        "borderTopLeftRadius": 12,
+        "borderTopRightRadius": 12,
+        "flexDirection": "row",
+        "height": 44,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      Se connecter
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Authentication flow should render the third step 1`] = `
+<View>
+  <View
+    style={
+      [
+        {
+          "marginBottom": 56,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 24,
+            "lineHeight": 32,
+          },
+          {
+            "fontFamily": "SpaceGrotesk-Bold",
+          },
+          {
+            "color": "#1A202C",
+          },
+          {
+            "marginBottom": 20,
+          },
+        ]
+      }
+    >
+      Se connecter
+    </Text>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "column",
+          },
+          {
+            "marginBottom": 12,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "color": "#181D28",
+            },
+            {
+              "marginBottom": 4,
+            },
+          ]
+        }
+      >
+        Votre numéro de téléphone
+      </Text>
+      <TextInput
+        cursorColor="#388EFF"
+        keyboardType="phone-pad"
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="+22912345678"
+        placeholderTextColor="#96989E"
+        style={
+          [
+            {
+              "borderBottomWidth": 1,
+              "borderLeftWidth": 1,
+              "borderRightWidth": 1,
+              "borderTopWidth": 1,
+            },
+            {
+              "height": 44,
+            },
+            {
+              "width": "100%",
+            },
+            {
+              "paddingBottom": 8,
+              "paddingTop": 8,
+            },
+            {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            {
+              "borderBottomLeftRadius": 12,
+              "borderBottomRightRadius": 12,
+              "borderTopLeftRadius": 12,
+              "borderTopRightRadius": 12,
+            },
+            {
+              "display": "flex",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "borderBottomColor": "#B8BABE",
+              "borderLeftColor": "#B8BABE",
+              "borderRightColor": "#B8BABE",
+              "borderTopColor": "#B8BABE",
+            },
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+        value=""
+      />
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "column",
+          },
+          {
+            "marginBottom": 12,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "color": "#181D28",
+            },
+            {
+              "marginBottom": 4,
+            },
+          ]
+        }
+      >
+        Votre code ojami
+      </Text>
+      <TextInput
+        cursorColor="#388EFF"
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="OJA-000X"
+        placeholderTextColor="#96989E"
+        style={
+          [
+            {
+              "borderBottomWidth": 1,
+              "borderLeftWidth": 1,
+              "borderRightWidth": 1,
+              "borderTopWidth": 1,
+            },
+            {
+              "height": 44,
+            },
+            {
+              "width": "100%",
+            },
+            {
+              "paddingBottom": 8,
+              "paddingTop": 8,
+            },
+            {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            {
+              "borderBottomLeftRadius": 12,
+              "borderBottomRightRadius": 12,
+              "borderTopLeftRadius": 12,
+              "borderTopRightRadius": 12,
+            },
+            {
+              "display": "flex",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "fontSize": 14,
+              "lineHeight": 20,
+            },
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "borderBottomColor": "#B8BABE",
+              "borderLeftColor": "#B8BABE",
+              "borderRightColor": "#B8BABE",
+              "borderTopColor": "#B8BABE",
+            },
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+        value=""
+      />
+    </View>
+    <Text
+      style={
+        [
+          {
+            "marginTop": 4,
+          },
+          {
+            "fontFamily": "SpaceGrotesk-Regular",
+          },
+          {
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+          {
+            "color": "#666A72",
+          },
+        ]
+      }
+    >
+      Vous pouvez retrouver votre code OJAMI dans votre boîte mail ou dans l’application Ojami installé sur votre PC.
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#1455E1",
+        "borderBottomLeftRadius": 12,
+        "borderBottomRightRadius": 12,
+        "borderTopLeftRadius": 12,
+        "borderTopRightRadius": 12,
+        "flexDirection": "row",
+        "height": 44,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      Se connecter
+    </Text>
+  </View>
+</View>
+`;
